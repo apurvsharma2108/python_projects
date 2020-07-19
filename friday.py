@@ -102,8 +102,7 @@ if __name__ == "__main__":
                 actual_link=link.get('href')
                 print(actual_link)
                 webbrowser.open('https://google.com/'+actual_link)
-        elif 'how old are you':
-            speak("well sir i'm younger than you but much wiser")
+        
                    
         
         time.sleep(5)
